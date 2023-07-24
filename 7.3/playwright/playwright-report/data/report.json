@@ -1,0 +1,135 @@
+{
+  "files": [
+    {
+      "fileId": "86ec2a3dc67a777f4c0d332f07184170e26e20a7",
+      "fileName": "App.spec.js",
+      "tests": [
+        {
+          "testId": "86ec2a3dc67a777f4c0d332f07184170e26e20a7-edbe331a2279660bcd9da7690e9152c3a4443082",
+          "title": "Позитивный сценарий",
+          "projectName": "chromium",
+          "location": {
+            "file": "App.spec.js",
+            "line": 18,
+            "column": 3
+          },
+          "duration": 53256,
+          "outcome": "unexpected",
+          "path": [
+            "App.spec.js:18",
+            "Тесты авторизации на сайте netology.ru"
+          ],
+          "ok": false
+        },
+        {
+          "testId": "86ec2a3dc67a777f4c0d332f07184170e26e20a7-d1427ca4d98b547669feee755a32685d129dfa3d",
+          "title": "Позитивный сценарий",
+          "projectName": "firefox",
+          "location": {
+            "file": "App.spec.js",
+            "line": 18,
+            "column": 3
+          },
+          "duration": 25637,
+          "outcome": "unexpected",
+          "path": [
+            "App.spec.js:18",
+            "Тесты авторизации на сайте netology.ru"
+          ],
+          "ok": false
+        },
+        {
+          "testId": "86ec2a3dc67a777f4c0d332f07184170e26e20a7-1a0d7e154f50e09b8b32d33f9ca70dcfbfedc564",
+          "title": "Позитивный сценарий",
+          "projectName": "webkit",
+          "location": {
+            "file": "App.spec.js",
+            "line": 18,
+            "column": 3
+          },
+          "duration": 40629,
+          "outcome": "unexpected",
+          "path": [
+            "App.spec.js:18",
+            "Тесты авторизации на сайте netology.ru"
+          ],
+          "ok": false
+        },
+        {
+          "testId": "86ec2a3dc67a777f4c0d332f07184170e26e20a7-de7203aa550ed3c944ed461fc6a72fa0229a14ba",
+          "title": "Негативный сценарий",
+          "projectName": "chromium",
+          "location": {
+            "file": "App.spec.js",
+            "line": 27,
+            "column": 3
+          },
+          "duration": 38033,
+          "outcome": "expected",
+          "path": [
+            "App.spec.js:27",
+            "Тесты авторизации на сайте netology.ru"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "86ec2a3dc67a777f4c0d332f07184170e26e20a7-dd1056e7ad019fc1b2e93194fb5c7ccbbfec6810",
+          "title": "Негативный сценарий",
+          "projectName": "firefox",
+          "location": {
+            "file": "App.spec.js",
+            "line": 27,
+            "column": 3
+          },
+          "duration": 26168,
+          "outcome": "expected",
+          "path": [
+            "App.spec.js:27",
+            "Тесты авторизации на сайте netology.ru"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "86ec2a3dc67a777f4c0d332f07184170e26e20a7-f6f8dc0115fcc3aeb03c89f3279b70ac31b61ef2",
+          "title": "Негативный сценарий",
+          "projectName": "webkit",
+          "location": {
+            "file": "App.spec.js",
+            "line": 27,
+            "column": 3
+          },
+          "duration": 27841,
+          "outcome": "expected",
+          "path": [
+            "App.spec.js:27",
+            "Тесты авторизации на сайте netology.ru"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 6,
+        "expected": 3,
+        "unexpected": 3,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": false,
+        "duration": 211564
+      }
+    }
+  ],
+  "projectNames": [
+    "chromium",
+    "firefox",
+    "webkit"
+  ],
+  "stats": {
+    "total": 6,
+    "expected": 3,
+    "unexpected": 3,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": false,
+    "duration": 211564
+  }
+}
