@@ -1,16 +1,22 @@
-const { chromium } = require("playwright");
+, ,, ,                              
+| || |    ,/  _____  \.             
+\_||_/    ||_/     \_||             
+  ||       \_| . . |_/              
+  ||         |  L  |                
+ ,||         |`==='|                
+ |>|      ___`>  -<'___             
+ |>|\    /             \            
+ \>| \  /  ,    .    .  |           
+  ||  \/  /| .  |  . |  |           
+  ||\  ` / | ___|___ |  |     (     
+(( || `--'  | _______ |  |     ))  ( 
+(  )\|| (  )\ | - --- - | -| (  ( \  ))
+(\/  || ))/ ( | -- - -- |  | )) )  \(( 
+( ()||((( ())|         |  |( (( () )hjm
 
-(async () => {
-  const browser = await chromium.launch({
-    headless: false,
-    slowMo: 5000,
-    devtools: true
-  });
-  const page = await browser.newPage();
-  await page.goto("https://netology.ru");
-  await page.click("text=Каталог курсов");
-  await page.pause();
 
-  //assertion
-  await browser.close();
-})();
+
+
+
+
+!!! PRAY FOR NETOLOGY !!!
