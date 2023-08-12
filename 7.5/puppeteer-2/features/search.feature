@@ -10,7 +10,7 @@ Feature: Booking ticket- Tests
 		Then user can see QR code
 		Then user sees the header 'Электронный билет'
 
-			Scenario: Positive - Should book VIP seat
+	Scenario: Positive - Should book VIP seat
 		Given user is on start page "http://qamid.tmweb.ru/client/index.php"
 		When user chooses day "7" of the week
 		When user chooses movie "2" and time "2"
